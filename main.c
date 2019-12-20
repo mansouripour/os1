@@ -129,4 +129,19 @@ int main()
         exit(0); 
 
     } 
+    int sum,i,j;
+    for(i=0; i<4; i++)
+    {
+        if(input_str[i] != NULL)
+        {
+            j = (input_str[i]-48);
+            if( j % 2 == 0)
+            {
+             sum += j ;
+            }
+        }
+        
+    }
+    
+    printf("%d",sum);
 }
